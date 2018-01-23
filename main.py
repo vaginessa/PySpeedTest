@@ -12,14 +12,12 @@ import time
 import sys
 import argparse
 
-#from settings import REC_FILE, LOCATION, FREQ, VERBOSITY, FORCE_SERVER
-
 parser = argparse.ArgumentParser(description=
                                  "Run continous internet speed tests.")
 parser.add_argument('-o',
                     default='speed_record.ilog',
                     help="name of the file to write to",
-                    metavar="output filename",
+                    metavar="filename",
                     dest='REC_FILE')
 parser.add_argument('-l', '--location',
                     default='No location',
