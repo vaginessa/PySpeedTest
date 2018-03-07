@@ -48,7 +48,7 @@ try:
 except ModuleNotFoundError:
     print("Critical: Required module PySpeedTest not found.")
     print("          Running this in terminal/cmd will probably fix it:")
-    print("          pip install pyspeedtest")
+    print("\n$ pip install pyspeedtest")
     sys.exit(1)
 
 # lazy man's debugging
