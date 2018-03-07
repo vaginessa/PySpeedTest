@@ -7,3 +7,5 @@ build/
 dist/
 Records/
 .spyproject/
+*.ico
+src/pyspeedtest.py
