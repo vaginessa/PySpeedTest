@@ -12,6 +12,7 @@ python:
 branches:
   only:
     - master
+    - nogui
   
 # install dependencies
 install:
